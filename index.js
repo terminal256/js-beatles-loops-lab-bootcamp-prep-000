@@ -21,8 +21,8 @@ function iLoveTheBeatles(n){
   let counter = 15 - n;
   do{
     acc.push("I love the Beatles!");
-    n--;
+    counter--;
   }
-  while(n > 0)
+  while(counter > 0)
   return acc;
 }
