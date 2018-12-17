@@ -10,8 +10,8 @@ function johnLennonFacts(facts){
   let arr = [];
   let counter = facts.length;
   while(counter > 0){
-    
-    arr.push(`${facts[counter]}!!!`);
+    counter--;  
+    arr.unshift(`${facts[counter]}!!!`);
   }
   return arr;
 }
